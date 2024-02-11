@@ -1,0 +1,130 @@
+*{  margin: 0%;
+    box-sizing: border-box;  
+    
+  
+   
+}
+body{
+    background-color: #081b29;
+    color: #ededed;
+
+    
+    
+   
+}
+.header{
+    position: fixed;
+    width: 95%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ededed;
+    font-weight: 500;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 400;
+    margin-left: 50px;
+    transition: .2s;
+
+}
+.links a:hover,.links a.active{
+    color: #00abf0;
+} 
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    flex-wrap: wrap;
+   
+
+}
+
+.hello{
+    color: #00abf0;
+    margin:3px 0;
+}
+.content h1{
+    font-size: 35px;
+    margin:3px 0;
+    
+}
+.content p{
+    font-size: 30px;
+    margin:3px 0;
+}
+.content h2{
+    font-size: 30px;
+    color: #00abf0;
+    margin:3px 0;
+}
+
+/* .n{
+    background-color:#081b29;
+    color: #00abf0;
+    border-color:#00abf0 ;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+    margin:3px 0;
+    
+} */
+.n:hover{
+    background-color:#00abf0;
+    color:#081b29;
+    border-color:#081b29 ;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+    transition: 0.5s;
+}
+.medai{
+    position: absolute;
+    bottom: 120px;
+}
+.medai a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    text-decoration: none;
+    border:2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #00abf0;
+}
+.medai a:hover{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    text-decoration: none;
+    border:2px solid #081b29;
+    background-color: #00abf0;
+    border-radius: 50%;
+    font-size: 30px;
+    color:#081b29;
+    transition-duration: 1.2s;
+}
+img{
+    box-sizing: border-box;
+    border:2px solid #00abf0;
+    border-radius: 50%;
+    margin: 70px 0 0 500px;
+
+   
+    
+}
