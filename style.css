@@ -174,7 +174,8 @@ img{
     max-width: 400px;
   }
      .links a{
-         justify-content: space-between;
+         justify-content: space-between; 
+     }
     
   .logo{
         padding: 20px;
