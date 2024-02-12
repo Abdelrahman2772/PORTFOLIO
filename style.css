@@ -173,5 +173,8 @@ img{
     font-size: 15px;
     max-width: 400px;
   }
+     .links a{
+    margin-left: 20px;
+}
 }
 
