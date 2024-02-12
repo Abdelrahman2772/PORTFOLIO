@@ -174,7 +174,7 @@ img{
     max-width: 400px;
   }
      .links a{
-    justify-content: space-between;
+    gap:15px;
     
 }
 }
