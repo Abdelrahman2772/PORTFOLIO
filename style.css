@@ -157,16 +157,16 @@ img{
 }
 @media (max-width:500px){
   .logo{
-    font-size: 10px;
+    font-size: 20px;
   }
   .links{
     font-size: 7px;
 }
   .co{
-    font-size: 15px;
+    font-size: 17px;
   }
   .fo{
-    font-size: 7px;
+    font-size: 20px;
   }
 }
 
